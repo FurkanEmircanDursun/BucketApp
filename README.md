@@ -21,8 +21,11 @@ implementation group: 'com.squareup.retrofit2', name: 'converter-gson', version:
 # Api's
 
 @GET https://dummyjson.com/products
+
 @GET https://dummyjson.com/products/{id}
+
 @POST https://dummyjson.com/carts/add
+
 @GET https://dummyjson.com/carts/1
 
 # GIF
